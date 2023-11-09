@@ -19,7 +19,6 @@ namespace game
         private Form1 mainForm;
         public Doggo()
         {
-
         }
         public Doggo(Form1 form)
         {
@@ -41,11 +40,9 @@ namespace game
             doggo.Top = doggoTop;
             doggo.BringToFront();
             form.Controls.Add(doggo);
-
         }
         public void move(Form1 form)
-        {
-           
+        {         
             if (GoLeft == true && doggo.Left > 0)
             {
                 doggo.Image = Properties.Resources.walk_left;
@@ -85,7 +82,6 @@ namespace game
                 }
             }
 
-
             if (GoRight == false && GoLeft == false && GoUp == false)
             {
                 if (Where == "left")
@@ -115,19 +111,11 @@ namespace game
                         doggo.Top = x.Top + doggo.Height;
                         GoUp = false;
                     }
-                    
-
-
-
                 }
-
-                }
-            
-            }
+            }           
         }
-
-
     }
+}
 
 
 

@@ -13,25 +13,22 @@ namespace game
 {       
     public partial class Form1 : Form
     {
-        bool jump;
         Doggo doggo = new Doggo();
+
         public Form1()
         {
             InitializeComponent();
             doggo.MakeDoggo(this);
-         
-
+            Friend friend1 = new Friend(this, 300, 500, "xyz", "Y");
         }
 
         public void MainTimerEvent(object sender, EventArgs e)
         {   
             doggo.move(this);
-
         }
 
         private void KeyIsUp(object sender, KeyEventArgs e)
         {
-
             if (e.KeyCode == Keys.Left)
             {
                 doggo.GoLeft = false;
@@ -46,7 +43,6 @@ namespace game
             {
                 doggo.GoUp = false;
             }
-
         }
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
@@ -67,15 +63,9 @@ namespace game
                 doggo.GoUp = true;
             }
             
-
-           
-
-
-            if (e.KeyCode == Keys.Space)
+            if (e.KeyCode == Keys.A)
             {
-                Ball throwaball = new Ball(doggo.Where);
-                throwaball.ballLeft = doggo.doggoLeft +(doggo.doggoWidth / 2);
-                throwaball.ballTop = doggo.doggoTop + (doggo.doggoHeight / 2);
+                Ball throwaball = new Ball(doggo);
                 throwaball.MakeBall(this);
             }
 

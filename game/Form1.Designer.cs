@@ -114,7 +114,7 @@ namespace game
             // 
             this.pictureBox7.BackColor = System.Drawing.SystemColors.HotTrack;
             this.pictureBox7.Image = global::game.Properties.Resources.platforma;
-            this.pictureBox7.Location = new System.Drawing.Point(-15, 90);
+            this.pictureBox7.Location = new System.Drawing.Point(191, 1);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(396, 64);
             this.pictureBox7.TabIndex = 5;

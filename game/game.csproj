@@ -57,6 +57,7 @@
     <Compile Include="Friend.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Treat.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +110,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\platforma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treat.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

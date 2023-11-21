@@ -121,8 +121,8 @@
   <data name="walk_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\walk_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="stand_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stand_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jump_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jump_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jump_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jump_right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,13 +136,16 @@
   <data name="ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jump_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jump_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="stand_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="platforma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\platforma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stand_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stand_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="platforma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\platforma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="treat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\treat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

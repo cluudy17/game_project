@@ -133,6 +133,16 @@ namespace game.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap treat {
+            get {
+                object obj = ResourceManager.GetObject("treat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap walk_left {
             get {
                 object obj = ResourceManager.GetObject("walk_left", resourceCulture);

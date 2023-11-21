@@ -13,6 +13,7 @@ namespace game
     {
         public bool GoLeft, GoRight, GoUp,fall;
         int Speed = 7;
+        int Score = 0;
         public string Where;
         public int doggoLeft, doggoWidth, doggoHeight, doggoTop, force, jumpSpeed;
         public PictureBox doggo = new PictureBox();
@@ -111,6 +112,25 @@ namespace game
                         doggo.Top = x.Top + doggo.Height;
                         GoUp = false;
                     }
+                }
+                if (x is PictureBox && (string)x.Tag == "treat")
+                {
+                    if (doggo.Bounds.IntersectsWith(x.Bounds))
+                    {
+                        Score += 1;
+                        x.Dispose();
+                    }
+
+                }
+                if (x is PictureBox && (string)x.Tag == "friend")
+                {
+                    if (doggo.Bounds.IntersectsWith(x.Bounds) && !GoUp)
+                    {
+                        doggo.Top = x.Top - doggo.Height;
+                        force = 0;
+                        Score += 1;
+                    }
+
                 }
             }           
         }
